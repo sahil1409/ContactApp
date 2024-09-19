@@ -1,0 +1,16 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3006 -w db.json",
+    "explain-start": "echo 'Reminder: -p stands for port number and -w stands for watch mode'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  }
+}
